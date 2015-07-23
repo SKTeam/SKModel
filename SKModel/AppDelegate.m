@@ -7,7 +7,8 @@
 //
 
 #import "AppDelegate.h"
-
+#import "SKRefreshTableViewController.h"
+#import "CoreDataManager.h"
 @interface AppDelegate ()
 
 @end
@@ -17,6 +18,14 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
+    SKRefreshTableViewController *stVc = [[SKRefreshTableViewController alloc] init];
+    self.window.rootViewController = stVc;
+    [self.window makeKeyAndVisible];
+    
+    
+    //core data magical record rest kit
+    [CoreDataManager initMagicalRecordAndRestKit];
     return YES;
 }
 

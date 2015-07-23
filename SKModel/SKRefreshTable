@@ -1,0 +1,6 @@
+MJRefreshTable
+    ——基于MJRefresh的带下拉和上拉刷新的TableView
+使用方式：
+    1.将MJRefresh文件夹和SKRefreshTable.h和SKRefrshTable.m拖入工程
+    2.在要使用刷新UITableView的地方实例化SKRefrshTable，然后像使用UITableView那样使用它就行
+    3.实现代理SKRefreshTableDelegate中的pullDown和pullUp函数，在这两个函数中实现网络访问和数据刷新

@@ -14,6 +14,31 @@
 		D33C5A151B60933F00BF78DF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D33C5A141B60933F00BF78DF /* Images.xcassets */; };
 		D33C5A181B60933F00BF78DF /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = D33C5A161B60933F00BF78DF /* LaunchScreen.xib */; };
 		D33C5A241B60933F00BF78DF /* SKModelTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D33C5A231B60933F00BF78DF /* SKModelTests.m */; };
+		D3A884921B60A61B00C23C90 /* SKCellFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = D3A8848E1B60A61B00C23C90 /* SKCellFactory.m */; };
+		D3A884931B60A61B00C23C90 /* SKRefreshTable in Resources */ = {isa = PBXBuildFile; fileRef = D3A8848F1B60A61B00C23C90 /* SKRefreshTable */; };
+		D3A884941B60A61B00C23C90 /* SKRefreshTable.m in Sources */ = {isa = PBXBuildFile; fileRef = D3A884911B60A61B00C23C90 /* SKRefreshTable.m */; };
+		D3A8849B1B60A63400C23C90 /* SKFooterCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D3A884961B60A63400C23C90 /* SKFooterCell.m */; };
+		D3A8849C1B60A63400C23C90 /* SKMainCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D3A884981B60A63400C23C90 /* SKMainCell.m */; };
+		D3A8849D1B60A63400C23C90 /* SKTitleCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D3A8849A1B60A63400C23C90 /* SKTitleCell.m */; };
+		D3A884A41B60A68300C23C90 /* comment.png in Resources */ = {isa = PBXBuildFile; fileRef = D3A884A01B60A68300C23C90 /* comment.png */; };
+		D3A884A51B60A68300C23C90 /* head.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D3A884A11B60A68300C23C90 /* head.jpg */; };
+		D3A884A61B60A68300C23C90 /* heart_red.png in Resources */ = {isa = PBXBuildFile; fileRef = D3A884A21B60A68300C23C90 /* heart_red.png */; };
+		D3A884A71B60A68300C23C90 /* heart.png in Resources */ = {isa = PBXBuildFile; fileRef = D3A884A31B60A68300C23C90 /* heart.png */; };
+		D3A884AA1B60A6A300C23C90 /* NetworkingCenter.m in Sources */ = {isa = PBXBuildFile; fileRef = D3A884A91B60A6A300C23C90 /* NetworkingCenter.m */; };
+		D3A884AC1B60A6D800C23C90 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3A884AB1B60A6D800C23C90 /* MobileCoreServices.framework */; };
+		D3A884AE1B60A6E100C23C90 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3A884AD1B60A6E100C23C90 /* Security.framework */; };
+		D3A884B01B60A6E800C23C90 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3A884AF1B60A6E800C23C90 /* CFNetwork.framework */; };
+		D3A884B21B60A6F300C23C90 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3A884B11B60A6F300C23C90 /* SystemConfiguration.framework */; };
+		D3A884B41B60A6FC00C23C90 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3A884B31B60A6FC00C23C90 /* CoreData.framework */; };
+		D3A884B61B60A70600C23C90 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3A884B51B60A70600C23C90 /* UIKit.framework */; };
+		D3A884B81B60A70E00C23C90 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3A884B71B60A70E00C23C90 /* Foundation.framework */; };
+		D3A884BA1B60A71500C23C90 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3A884B91B60A71500C23C90 /* CoreGraphics.framework */; };
+		D3A884BE1B60A74300C23C90 /* SKDataModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D3A884BC1B60A74300C23C90 /* SKDataModel.xcdatamodeld */; };
+		D3A884C21B60A80C00C23C90 /* SKCellDataEntity.m in Sources */ = {isa = PBXBuildFile; fileRef = D3A884C11B60A80C00C23C90 /* SKCellDataEntity.m */; };
+		D3A884C71B60A82200C23C90 /* CoreDataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D3A884C41B60A82200C23C90 /* CoreDataManager.m */; };
+		D3A884C81B60A82200C23C90 /* Mapping.m in Sources */ = {isa = PBXBuildFile; fileRef = D3A884C61B60A82200C23C90 /* Mapping.m */; };
+		D3A884CB1B60A83500C23C90 /* SKRefreshTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D3A884CA1B60A83500C23C90 /* SKRefreshTableViewController.m */; };
+		ECAE5DB4BAF352410F049034 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D158035F87F4F7A9B9B6A56D /* libPods.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +52,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7955A590932642E7486D2F12 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		90B1565DE65543D3B2F14884 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		D158035F87F4F7A9B9B6A56D /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		D33C5A041B60933E00BF78DF /* SKModel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SKModel.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D33C5A081B60933E00BF78DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D33C5A091B60933F00BF78DF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -40,6 +68,40 @@
 		D33C5A1D1B60933F00BF78DF /* SKModelTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SKModelTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D33C5A221B60933F00BF78DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D33C5A231B60933F00BF78DF /* SKModelTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SKModelTests.m; sourceTree = "<group>"; };
+		D3A8848D1B60A61B00C23C90 /* SKCellFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKCellFactory.h; sourceTree = "<group>"; };
+		D3A8848E1B60A61B00C23C90 /* SKCellFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKCellFactory.m; sourceTree = "<group>"; };
+		D3A8848F1B60A61B00C23C90 /* SKRefreshTable */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = SKRefreshTable; sourceTree = "<group>"; };
+		D3A884901B60A61B00C23C90 /* SKRefreshTable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKRefreshTable.h; sourceTree = "<group>"; };
+		D3A884911B60A61B00C23C90 /* SKRefreshTable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKRefreshTable.m; sourceTree = "<group>"; };
+		D3A884951B60A63400C23C90 /* SKFooterCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKFooterCell.h; sourceTree = "<group>"; };
+		D3A884961B60A63400C23C90 /* SKFooterCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKFooterCell.m; sourceTree = "<group>"; };
+		D3A884971B60A63400C23C90 /* SKMainCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKMainCell.h; sourceTree = "<group>"; };
+		D3A884981B60A63400C23C90 /* SKMainCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKMainCell.m; sourceTree = "<group>"; };
+		D3A884991B60A63400C23C90 /* SKTitleCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKTitleCell.h; sourceTree = "<group>"; };
+		D3A8849A1B60A63400C23C90 /* SKTitleCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKTitleCell.m; sourceTree = "<group>"; };
+		D3A884A01B60A68300C23C90 /* comment.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = comment.png; sourceTree = "<group>"; };
+		D3A884A11B60A68300C23C90 /* head.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = head.jpg; sourceTree = "<group>"; };
+		D3A884A21B60A68300C23C90 /* heart_red.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = heart_red.png; sourceTree = "<group>"; };
+		D3A884A31B60A68300C23C90 /* heart.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = heart.png; sourceTree = "<group>"; };
+		D3A884A81B60A6A300C23C90 /* NetworkingCenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetworkingCenter.h; sourceTree = "<group>"; };
+		D3A884A91B60A6A300C23C90 /* NetworkingCenter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetworkingCenter.m; sourceTree = "<group>"; };
+		D3A884AB1B60A6D800C23C90 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		D3A884AD1B60A6E100C23C90 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		D3A884AF1B60A6E800C23C90 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		D3A884B11B60A6F300C23C90 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		D3A884B31B60A6FC00C23C90 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		D3A884B51B60A70600C23C90 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		D3A884B71B60A70E00C23C90 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D3A884B91B60A71500C23C90 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		D3A884BD1B60A74300C23C90 /* SKDataModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SKDataModel.xcdatamodel; sourceTree = "<group>"; };
+		D3A884C01B60A80C00C23C90 /* SKCellDataEntity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKCellDataEntity.h; sourceTree = "<group>"; };
+		D3A884C11B60A80C00C23C90 /* SKCellDataEntity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKCellDataEntity.m; sourceTree = "<group>"; };
+		D3A884C31B60A82200C23C90 /* CoreDataManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreDataManager.h; sourceTree = "<group>"; };
+		D3A884C41B60A82200C23C90 /* CoreDataManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoreDataManager.m; sourceTree = "<group>"; };
+		D3A884C51B60A82200C23C90 /* Mapping.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Mapping.h; sourceTree = "<group>"; };
+		D3A884C61B60A82200C23C90 /* Mapping.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Mapping.m; sourceTree = "<group>"; };
+		D3A884C91B60A83500C23C90 /* SKRefreshTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKRefreshTableViewController.h; sourceTree = "<group>"; };
+		D3A884CA1B60A83500C23C90 /* SKRefreshTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKRefreshTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +109,15 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D3A884BA1B60A71500C23C90 /* CoreGraphics.framework in Frameworks */,
+				D3A884B81B60A70E00C23C90 /* Foundation.framework in Frameworks */,
+				D3A884B61B60A70600C23C90 /* UIKit.framework in Frameworks */,
+				D3A884B41B60A6FC00C23C90 /* CoreData.framework in Frameworks */,
+				D3A884B21B60A6F300C23C90 /* SystemConfiguration.framework in Frameworks */,
+				D3A884B01B60A6E800C23C90 /* CFNetwork.framework in Frameworks */,
+				D3A884AE1B60A6E100C23C90 /* Security.framework in Frameworks */,
+				D3A884AC1B60A6D800C23C90 /* MobileCoreServices.framework in Frameworks */,
+				ECAE5DB4BAF352410F049034 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -60,12 +131,39 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3963AAC0B99E46E4B4F980DA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D3A884B91B60A71500C23C90 /* CoreGraphics.framework */,
+				D3A884B71B60A70E00C23C90 /* Foundation.framework */,
+				D3A884B51B60A70600C23C90 /* UIKit.framework */,
+				D3A884B31B60A6FC00C23C90 /* CoreData.framework */,
+				D3A884B11B60A6F300C23C90 /* SystemConfiguration.framework */,
+				D3A884AF1B60A6E800C23C90 /* CFNetwork.framework */,
+				D3A884AD1B60A6E100C23C90 /* Security.framework */,
+				D3A884AB1B60A6D800C23C90 /* MobileCoreServices.framework */,
+				D158035F87F4F7A9B9B6A56D /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		739815410B4F45C63D29E9E0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				90B1565DE65543D3B2F14884 /* Pods.debug.xcconfig */,
+				7955A590932642E7486D2F12 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		D33C59FB1B60933E00BF78DF = {
 			isa = PBXGroup;
 			children = (
 				D33C5A061B60933E00BF78DF /* SKModel */,
 				D33C5A201B60933F00BF78DF /* SKModelTests */,
 				D33C5A051B60933E00BF78DF /* Products */,
+				739815410B4F45C63D29E9E0 /* Pods */,
+				3963AAC0B99E46E4B4F980DA /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -81,8 +179,13 @@
 		D33C5A061B60933E00BF78DF /* SKModel */ = {
 			isa = PBXGroup;
 			children = (
+				D3A884BF1B60A74900C23C90 /* CoreData */,
+				D3A884BB1B60A71F00C23C90 /* Networking */,
+				D3A8849E1B60A63800C23C90 /* Table */,
 				D33C5A0B1B60933F00BF78DF /* AppDelegate.h */,
 				D33C5A0C1B60933F00BF78DF /* AppDelegate.m */,
+				D3A884C91B60A83500C23C90 /* SKRefreshTableViewController.h */,
+				D3A884CA1B60A83500C23C90 /* SKRefreshTableViewController.m */,
 				D33C5A0E1B60933F00BF78DF /* ViewController.h */,
 				D33C5A0F1B60933F00BF78DF /* ViewController.m */,
 				D33C5A111B60933F00BF78DF /* Main.storyboard */,
@@ -119,6 +222,59 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		D3A8849E1B60A63800C23C90 /* Table */ = {
+			isa = PBXGroup;
+			children = (
+				D3A8849F1B60A65900C23C90 /* TableCell */,
+				D3A8848D1B60A61B00C23C90 /* SKCellFactory.h */,
+				D3A8848E1B60A61B00C23C90 /* SKCellFactory.m */,
+				D3A8848F1B60A61B00C23C90 /* SKRefreshTable */,
+				D3A884901B60A61B00C23C90 /* SKRefreshTable.h */,
+				D3A884911B60A61B00C23C90 /* SKRefreshTable.m */,
+			);
+			name = Table;
+			sourceTree = "<group>";
+		};
+		D3A8849F1B60A65900C23C90 /* TableCell */ = {
+			isa = PBXGroup;
+			children = (
+				D3A884A01B60A68300C23C90 /* comment.png */,
+				D3A884A11B60A68300C23C90 /* head.jpg */,
+				D3A884A21B60A68300C23C90 /* heart_red.png */,
+				D3A884A31B60A68300C23C90 /* heart.png */,
+				D3A884951B60A63400C23C90 /* SKFooterCell.h */,
+				D3A884961B60A63400C23C90 /* SKFooterCell.m */,
+				D3A884971B60A63400C23C90 /* SKMainCell.h */,
+				D3A884981B60A63400C23C90 /* SKMainCell.m */,
+				D3A884991B60A63400C23C90 /* SKTitleCell.h */,
+				D3A8849A1B60A63400C23C90 /* SKTitleCell.m */,
+			);
+			name = TableCell;
+			sourceTree = "<group>";
+		};
+		D3A884BB1B60A71F00C23C90 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				D3A884A81B60A6A300C23C90 /* NetworkingCenter.h */,
+				D3A884A91B60A6A300C23C90 /* NetworkingCenter.m */,
+			);
+			name = Networking;
+			sourceTree = "<group>";
+		};
+		D3A884BF1B60A74900C23C90 /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				D3A884C31B60A82200C23C90 /* CoreDataManager.h */,
+				D3A884C41B60A82200C23C90 /* CoreDataManager.m */,
+				D3A884C51B60A82200C23C90 /* Mapping.h */,
+				D3A884C61B60A82200C23C90 /* Mapping.m */,
+				D3A884BC1B60A74300C23C90 /* SKDataModel.xcdatamodeld */,
+				D3A884C01B60A80C00C23C90 /* SKCellDataEntity.h */,
+				D3A884C11B60A80C00C23C90 /* SKCellDataEntity.m */,
+			);
+			name = CoreData;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -126,9 +282,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D33C5A271B60933F00BF78DF /* Build configuration list for PBXNativeTarget "SKModel" */;
 			buildPhases = (
+				BDA15D21A6D69687ABE16082 /* Check Pods Manifest.lock */,
 				D33C5A001B60933E00BF78DF /* Sources */,
 				D33C5A011B60933E00BF78DF /* Frameworks */,
 				D33C5A021B60933E00BF78DF /* Resources */,
+				CC626B055927621A9A4C0CEB /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -199,9 +357,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D3A884A71B60A68300C23C90 /* heart.png in Resources */,
 				D33C5A131B60933F00BF78DF /* Main.storyboard in Resources */,
+				D3A884A61B60A68300C23C90 /* heart_red.png in Resources */,
+				D3A884A51B60A68300C23C90 /* head.jpg in Resources */,
 				D33C5A181B60933F00BF78DF /* LaunchScreen.xib in Resources */,
+				D3A884A41B60A68300C23C90 /* comment.png in Resources */,
 				D33C5A151B60933F00BF78DF /* Images.xcassets in Resources */,
+				D3A884931B60A61B00C23C90 /* SKRefreshTable in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -214,13 +377,57 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		BDA15D21A6D69687ABE16082 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		CC626B055927621A9A4C0CEB /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		D33C5A001B60933E00BF78DF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D3A8849D1B60A63400C23C90 /* SKTitleCell.m in Sources */,
+				D3A884BE1B60A74300C23C90 /* SKDataModel.xcdatamodeld in Sources */,
+				D3A884C21B60A80C00C23C90 /* SKCellDataEntity.m in Sources */,
+				D3A8849B1B60A63400C23C90 /* SKFooterCell.m in Sources */,
+				D3A884921B60A61B00C23C90 /* SKCellFactory.m in Sources */,
+				D3A884CB1B60A83500C23C90 /* SKRefreshTableViewController.m in Sources */,
 				D33C5A101B60933F00BF78DF /* ViewController.m in Sources */,
+				D3A884C71B60A82200C23C90 /* CoreDataManager.m in Sources */,
+				D3A884AA1B60A6A300C23C90 /* NetworkingCenter.m in Sources */,
 				D33C5A0D1B60933F00BF78DF /* AppDelegate.m in Sources */,
+				D3A884941B60A61B00C23C90 /* SKRefreshTable.m in Sources */,
+				D3A884C81B60A82200C23C90 /* Mapping.m in Sources */,
+				D3A8849C1B60A63400C23C90 /* SKMainCell.m in Sources */,
 				D33C5A0A1B60933F00BF78DF /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -347,6 +554,7 @@
 		};
 		D33C5A281B60933F00BF78DF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 90B1565DE65543D3B2F14884 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = SKModel/Info.plist;
@@ -357,6 +565,7 @@
 		};
 		D33C5A291B60933F00BF78DF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7955A590932642E7486D2F12 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = SKModel/Info.plist;
@@ -418,6 +627,7 @@
 				D33C5A291B60933F00BF78DF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D33C5A2A1B60933F00BF78DF /* Build configuration list for PBXNativeTarget "SKModelTests" */ = {
 			isa = XCConfigurationList;
@@ -426,8 +636,22 @@
 				D33C5A2C1B60933F00BF78DF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		D3A884BC1B60A74300C23C90 /* SKDataModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				D3A884BD1B60A74300C23C90 /* SKDataModel.xcdatamodel */,
+			);
+			currentVersion = D3A884BD1B60A74300C23C90 /* SKDataModel.xcdatamodel */;
+			path = SKDataModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = D33C59FC1B60933E00BF78DF /* Project object */;
 }

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="7701" systemVersion="14A389" minimumToolsVersion="Xcode 4.3" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="SKCellDataEntity" representedClassName="SKCellDataEntity" syncable="YES">
+        <attribute name="footerCommentNum" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="footerLikeNum" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="keyIndex" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="mainImgUrl" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="mainText" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="titleImgName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="titleImgUrl" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="titleName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="titleSubName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="titleTime" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="SKCellDataEntity" positionX="-63" positionY="-18" width="128" height="195"/>
+    </elements>
+</model>
